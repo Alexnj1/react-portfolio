@@ -13,7 +13,7 @@ function App() {
   ];
   const [currentCat, changeCat] = useState(navCategories[0].name);
   return (
-    <div>
+    <div className="full">
       <Header
         categories={navCategories}
         currentCat={currentCat}

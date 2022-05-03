@@ -1,8 +1,10 @@
 html {
   min-height: 100%;
 }
-body {
-  height: 100%;
+body, #root, .full {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: rgb(198, 202, 207);
 }
 /* body {
@@ -10,8 +12,13 @@ body {
   background-color: #D8CFAF;
 } */
 
-nav {
+nav, footer {
   background-color: #eb8a90;
+}
+
+footer{
+  padding: 5px;
+  /* margin-top: auto; */
 }
 /* nav {
   background-color: #7D8CA3;
@@ -33,7 +40,8 @@ nav {
 }
 
 .p-image {
-  max-height: 30vh;
+  /* max-height: 35vh; */
+  max-width: 65vw;
   border: 3px solid black;
 }
 

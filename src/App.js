@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import About from "./components/about";
+import Footer from "./components/footer";
+import Header from "./components/header";
+import Portfolio from "./components/portfolio";
 
 function App() {
+  const navCategories = [
+    { name: "About Me" },
+    { name: "Portfolio" },
+    { name: "Contact" },
+    { name: "Resume" },
+  ];
+  const [currentCat, changeCat] = useState(navCategories[0].name);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header
+        categories={navCategories}
+        currentCat={currentCat}
+        changeCat={changeCat}
+      ></Header>
+      {currentCat === 'About Me' ? <About></About> : console.log('none')}
+      {currentCat === 'Portfolio'? <Portfolio></Portfolio>: console.log('none')}
+      <Footer></Footer>
     </div>
   );
 }

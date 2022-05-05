@@ -17,8 +17,8 @@ function Header(props) {
   // }
 
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light">
+    <div className="sticky-top">
+      <nav className="navbar navbar-expand-lg navbar-light sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand fw-bold" href="/">
             Alex Noble-James

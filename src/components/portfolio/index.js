@@ -51,13 +51,13 @@ function Portfolio() {
       {projects.map((proj, i)=>(
       <div key={i} className="d-flex flex-column m-5 p-3 my-border card">
         <div className="text-center">
-          <img className="p-image" src={require(`../../assets/images/${proj.id}.png`)}></img>
+          <img className="p-image" src={require(`../../assets/images/${proj.id}.png`)} alt="Project Screenshot"></img>
         </div>
         <div className="mx-auto text-center">
           <h3 className="fw-bold m-2">{proj.name}</h3>
           <p>{proj.description}</p>
-          <a href={proj.liveUrl} target="_blank">View Deployed Application</a> <br></br>
-          <a href={proj.gitHub} target="_blank">View GitHub Repository</a>
+          <a href={proj.liveUrl} target="_blank" rel="noreferrer">View Deployed Application</a> <br></br>
+          <a href={proj.gitHub} target="_blank" rel="noreferrer">View GitHub Repository</a>
         </div>
       </div>
       ))}

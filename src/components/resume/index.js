@@ -11,12 +11,13 @@ function Resume() {
             <img
               id="resumeImg"
               src={require("../../assets/images/resume2.png")}
+              className="border-bottom border-dark border-3"
               alt="Resume logo"
             ></img>
           </a>
         </div>
         <div>
-          <h4 className="text-center fw-bold">My Skills</h4>
+          <h4 className="text-center my-4 fw-bold">My Skills</h4>
         </div>
 
         <div className="d-flex justify-content-around flex-wrap">

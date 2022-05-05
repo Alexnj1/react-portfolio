@@ -40,25 +40,6 @@ function Contact() {
         className="m-5 d-flex flex-wrap justify-content-around"
       >
         <div
-          className="card m-3 border border-dark border-solid border-3"
-          style={{
-            minWidth: `${width}%`,
-          }}
-        >
-          <address className="p-3">
-            <p className="text-center fw-bold">Contact Information</p>
-            <p className="text-center">
-              <i>
-                Alex Noble-James
-                <br></br> <br></br> Fort Lauderdale, FL 33321
-                <br></br>
-                <br></br>Phone: 754-715-6009
-                <br></br>Email: alexnoble143.an@gmail.com
-              </i>
-            </p>
-          </address>
-        </div>
-        <div
           className=""
           style={{
             minWidth: `${width}%`,
@@ -120,6 +101,25 @@ function Contact() {
             </button>
           </div>
           
+          <div
+            className="card m-3 border border-dark border-solid border-3"
+            style={{
+              minWidth: `${width}%`,
+            }}
+          >
+            <address className="p-3">
+              <p className="text-center fw-bold">Contact Information</p>
+              <p className="text-center">
+                <i>
+                  Alex Noble-James
+                  <br></br> <br></br> Fort Lauderdale, FL 33321
+                  <br></br>
+                  <br></br>Phone: 754-715-6009
+                  <br></br>Email: alexnoble143.an@gmail.com
+                </i>
+              </p>
+            </address>
+          </div>
         </div>
       </div>
     </section>

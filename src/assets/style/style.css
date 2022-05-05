@@ -6,6 +6,7 @@ body, #root, .full {
   display: flex;
   flex-direction: column;
   background-color: rgb(198, 202, 207);
+  font-family: 'BIZ UDPGothic', sans-serif;
 }
 /* body {
   height: 100%;
@@ -29,9 +30,22 @@ footer{
 }
 
 #avatar {
-  max-height: 60vh;
+  max-height: 45vh;
   border-radius: 50px;
   border: 5px solid black;
+}
+
+#resumeImg {
+  /* hit this with some media queries */
+  max-height: 20vw;
+} 
+
+#skillCard {
+  width: 28rem;
+}
+
+#contactBtn {
+  background-color: #eb8a90
 }
 
 .my-border{
@@ -46,5 +60,5 @@ footer{
 }
 
 #aboutMe{
-  max-width: 40vw;
+  max-width: 60vw;
 }

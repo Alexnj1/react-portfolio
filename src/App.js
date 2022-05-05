@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import About from "./components/about";
+import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Portfolio from "./components/portfolio";
+import Resume from "./components/resume";
 
 function App() {
   const navCategories = [
     { name: "About Me" },
     { name: "Portfolio" },
-    { name: "Contact" },
     { name: "Resume" },
+    { name: "Contact" },
   ];
   const [currentCat, changeCat] = useState(navCategories[0].name);
   return (
@@ -19,8 +21,17 @@ function App() {
         currentCat={currentCat}
         changeCat={changeCat}
       ></Header>
-      {currentCat === 'About Me' ? <About></About> : console.log('none')}
-      {currentCat === 'Portfolio'? <Portfolio></Portfolio>: console.log('none')}
+      {currentCat === "About Me" ? (
+        <About></About>
+      ) : currentCat === "Portfolio" ? (
+        <Portfolio></Portfolio>
+      ) : currentCat === "Resume" ? (
+        <Resume></Resume>
+      ) : currentCat === "Contact" ? (
+        <Contact></Contact>
+      ) : (
+        alert(new Error("There was an issue"))
+      )}
       <Footer></Footer>
     </div>
   );

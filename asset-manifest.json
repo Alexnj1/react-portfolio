@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.54d7b35b.css",
+    "main.js": "/react-portfolio/static/js/main.7b9d70bf.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/css.png": "/react-portfolio/static/media/css.c6e02d760013a0b2706a.png",
+    "static/media/imbd.png": "/react-portfolio/static/media/imbd.b66db3b44388adf05ba0.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.e957540d6e4e833ca0df.png",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.a604bb10c5cac7246a8b.png",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.6322eedd665edf1f7283.png",
+    "static/media/task-pro.png": "/react-portfolio/static/media/task-pro.d8b0c11e4f9694ea24cb.png",
+    "static/media/budget-tracker.png": "/react-portfolio/static/media/budget-tracker.81513c9984a63ca52e3a.png",
+    "static/media/resume2.png": "/react-portfolio/static/media/resume2.fad5504f8003b2277afa.png",
+    "static/media/resume (6).docx": "/react-portfolio/static/media/resume (6).273e99ab395f0037c163.docx",
+    "static/media/placeholder-avatar.jpg": "/react-portfolio/static/media/placeholder-avatar.75e00f766eaf78738633.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.54d7b35b.css.map": "/react-portfolio/static/css/main.54d7b35b.css.map",
+    "main.7b9d70bf.js.map": "/react-portfolio/static/js/main.7b9d70bf.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54d7b35b.css",
+    "static/js/main.7b9d70bf.js"
+  ]
+}
